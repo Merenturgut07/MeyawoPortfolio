@@ -11,7 +11,7 @@
 
 # Web Sitesinin Ana Sayfa kısımı
 Ana Sayfa bilgilerinin bulunduğu kısım , temel yeni Ana Sayfa bilgisi ekleme ,silme ve güncelleme işlemleri yapılmaktadır.
-<br/>
+<br>
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_46_59](https://github.com/user-attachments/assets/a3ebd559-9505-4f15-9082-b83ef4ffdeb2)
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_47_05](https://github.com/user-attachments/assets/ac9b928d-174b-488c-be3f-d1bd2b85af43)
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_47_10](https://github.com/user-attachments/assets/f9b0c9e6-56fa-44ef-b685-9309bca00f67)
