@@ -1,0 +1,26 @@
+﻿@model MeyawoPortfolio.Models.TblAbout
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>UpdateAbout</h2>
+
+
+<form method="post">
+    <label> About Id</label>
+    @Html.TextBoxFor(x => x.AboutId, new { @class = "table table-bordered", @readonly = "readonly" })
+    <label>Başlık</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "table table-bordered" })
+    <br />
+    <label> Ana Başlık</label>
+    @Html.TextBoxFor(x => x.Header, new { @class = "table table-bordered" })
+    <br />
+    <label>Açıklama</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "table table-bordered" })
+    <br />
+    <label>Fotoğraf</label>
+    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "table table-bordered" })
+    <br />
+    <button class="btn btn-success">Hakkımda Bilgilerini Güncelle</button>
+</form>

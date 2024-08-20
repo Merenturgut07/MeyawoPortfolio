@@ -1,0 +1,34 @@
+﻿@model List<MeyawoPortfolio.Models.TblCategory>
+@{
+    ViewBag.Title = "Index3";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>Category Tablosu </h2>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th> Kategori Id</th>
+        <th> Kategori İsmi </th>
+        <th> SIL</th>
+        <th> Guncelle </th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryId</td>
+            <td>@item.CategoryName</td>
+            <td><a href="/Category/DeleteCategory/@item.CategoryId" class="btn btn-danger"> Sil</a> </td>
+            <td><a href="/Category/UpdateCategory/@item.CategoryId" class="btn btn-success"> Güncelle</a> </td>
+
+        </tr>
+    }
+
+</table>
+
+<td> <a href="/Category/CreateCategory/" class="btn btn-primary"> Yeni Kategori Girişi</a></td>
+
+
+

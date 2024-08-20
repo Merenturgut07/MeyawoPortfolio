@@ -1,0 +1,18 @@
+﻿@model MeyawoPortfolio.Models.TblEducation
+@{
+    ViewBag.Title = "UpdateEducation";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<form method="post">
+    <label> Proje Id</label>
+    @Html.TextBoxFor(x => x.EducationId, new { @class = "table table-bordered", @readonly = "readonly" })
+    <label>Okul Adı</label>
+    @Html.TextBoxFor(x => x.OkulAdı, new { @class = "table table-bordered" })
+    <br />
+    <label> Bölüm</label>
+    @Html.TextBoxFor(x => x.Bölüm, new { @class = "table table-bordered" })
+    <br />
+    <button class="btn btn-success">Eğitim Hayatımı Güncelle</button>
+</form>
+

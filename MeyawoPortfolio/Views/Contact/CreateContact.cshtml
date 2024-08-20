@@ -1,0 +1,31 @@
+﻿@model MeyawoPortfolio.Models.TblContact
+@{
+    ViewBag.Title = "CreateContact";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>CreateContact</h2>
+
+
+
+<form method="post">
+    <label> Mesaj Id</label>
+    @Html.TextBoxFor(x => x.ContactId, new { @class = "table table-bordered" })
+    <br />
+    <label> Gönderern Adı Soyadı</label>
+    @Html.TextBoxFor(x => x.NameSurname, new { @class = "table table-bordered" })
+    <br />
+    <label> Email</label>
+    @Html.TextBoxFor(x => x.email, new { @class = "table table-bordered" })
+    <br />
+    <label> Mesaj</label>
+    @Html.TextBoxFor(x => x.Message, new { @class = "table table-bordered" })
+    <br />
+    <label> Mesaj Gönderim Tarihi</label>
+    @Html.TextBoxFor(x => x.SendDate, new { @class = "table table-bordered" })
+    <br />
+    <label> Mesaj Okundu Mu?</label>
+    @Html.TextBoxFor(x => x.IsRead, new { @class = "table table-bordered" })
+    <br />
+    <button class="btn btn-info">Mesajı Kaydet</button>
+</form>

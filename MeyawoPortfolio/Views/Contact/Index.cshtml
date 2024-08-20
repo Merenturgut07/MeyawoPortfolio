@@ -1,0 +1,33 @@
+﻿@model List<MeyawoPortfolio.Models.TblContact>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>Gelen Mesajlar Sayfası</h2>
+
+<table class="table table-bordered">
+    
+    <tr>
+        <th> Mesaj Id</th>
+        <th> Gönderen</th>
+        <th> Kategori</th>
+        <th> Tarih</th>  
+        <th> Mesajı Aç</th>
+        <th> Mesajı Sil</th>
+    </tr>
+    @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ContactId</td>
+                    <td>@item.NameSurname</td>
+                    <td>@item.MessageCategory</td>
+                    <td>@item.SendDate</td>
+                    <td> <a href="#" class="btn btn-warning"> Mesajı'da Aç</a></td>
+                    <td> <a href="#" class="btn btn-danger"> Mesajı'da Sil</a></td>
+                </tr>
+            }
+
+</table>
+<td> <a href="/Contact/CreateContact/" class="btn btn-primary"> Yeni Mesaj  Girişi</a></td>
+

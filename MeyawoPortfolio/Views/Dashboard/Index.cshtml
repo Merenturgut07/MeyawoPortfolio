@@ -1,0 +1,127 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>Dashboard </h2>
+
+
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+</head>
+<body class="w3-light-grey">
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:25px;margin-top:25px;">
+
+        <!-- Header -->
+
+        <div class="w3-row-padding w3-margin-bottom">
+
+            <div class="w3-quarter">
+                <div class="w3-container w3-blue w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-database w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.CategoryCount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Kategoriler</h4>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-container w3-teal w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-cubes w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.projectcount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Projeler</h4>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-cube w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.TestimonialCount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Referans Sayısı</h4>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-container w3-red w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.ServiceCount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4> Servis Sayısı</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-panel">
+
+        </div>
+        <br />
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', { packages: ['corechart', 'bar'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Değerler', 'Değer Sayısı'],
+                ['Kategoriler', 6],
+                ['Projeler', 4],
+                ['Referans Sayısı', 3],
+                ['Servis Sayısı ', 4],
+            ]);
+
+            var options = {
+                title: 'Dashboard Chart',
+                chartArea: { width: '70%' },
+                hAxis: {
+                    title: 'Value',
+                    minValue: 0,
+                    maxValue: 10
+                },
+                vAxis: {
+                },
+                bars: 'horizontal' // Yatay bar grafik olarak ayarlama
+            };
+
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
+</head>
+<body>
+    <div id="chart_div" style="width: 800px; height: 400px;"></div>
+</body>
+</html>
