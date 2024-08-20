@@ -49,6 +49,25 @@ Referanslarımın bilgilerinin bulunduğu kısım , temel yeni Referansların bi
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_38_04](https://github.com/user-attachments/assets/5b351b67-cf59-4805-b3bb-3c6e6ce02456)
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_39_04](https://github.com/user-attachments/assets/8344bc31-c228-43b6-a50f-182f5abb1f3d)
 
+# İstatistik Kısımı
+Projede yapılan bilgilerin istatistiklerinin bulunduğu kısım
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_41_02](https://github.com/user-attachments/assets/0ae7653a-d568-4cc0-8625-f570e58abc46)
+
+
+# Kategori Kısımı
+ Kategori bilgilerinin bulunduğu kısım , temel yeni  Kategori bilgisi,güncelleme, ekleme ve silme   işlemleri yapılmaktadır.
+ ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_42_29](https://github.com/user-attachments/assets/71093768-cd88-4975-88bb-efdab2e1ef64)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_42_34](https://github.com/user-attachments/assets/2627759c-fbca-4a4e-9bb3-1087bdaf4713)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_42_42](https://github.com/user-attachments/assets/eee21bfb-19bc-40fb-bd00-f31471cc7ab2)
+
+
+# Sosyal Medya Kısımı
+ Sosyal Medya bilgilerinin bulunduğu kısım , temel yeni  Sosyal Medya bilgisi ekleme ve silme   işlemleri yapılmaktadır.
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_44_08](https://github.com/user-attachments/assets/e338c597-9348-4bf1-bbd0-b68d644b36b5)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_44_16](https://github.com/user-attachments/assets/b20b2188-f5b0-4507-be67-a9f350b78d83)
+
+
+
 
 
 
