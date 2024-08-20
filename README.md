@@ -71,6 +71,13 @@ Projede yapılan bilgilerin istatistiklerinin bulunduğu kısım
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_44_08](https://github.com/user-attachments/assets/e338c597-9348-4bf1-bbd0-b68d644b36b5)
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_44_16](https://github.com/user-attachments/assets/b20b2188-f5b0-4507-be67-a9f350b78d83)
 
+# Hizmetlerim Kısımı
+ Hizmetlerim bilgilerinin bulunduğu kısım , temel yeni  Hizmetlerim bilgisi ekleme ve silme   işlemleri yapılmaktadır.
+ ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_53_41](https://github.com/user-attachments/assets/de9c9095-cd98-4677-a9c1-e8c94901716a)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_53_46](https://github.com/user-attachments/assets/72233724-f29d-46bf-a9c4-16fb6eaa8bbf)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_53_54](https://github.com/user-attachments/assets/43ead63b-1fe1-401d-b543-e25c697ca02d)
+
+
 
 
 
