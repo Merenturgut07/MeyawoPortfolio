@@ -58,9 +58,10 @@ Referanslarımın bilgilerinin bulunduğu kısım , temel yeni Referansların bi
 # Eğitim Hayatım Kısımı
  Eğitim Hayatım bilgilerinin bulunduğu kısım , temel yeni  Eğitim Hayatım bilgisi ekleme ve silme   işlemleri yapılmaktadır.
  <br><br>
- ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_37_58](https://github.com/user-attachments/assets/e50e87e0-4297-4e1d-b2a4-21e11c22ec03)
-![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_38_04](https://github.com/user-attachments/assets/5b351b67-cf59-4805-b3bb-3c6e6ce02456)
-![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_39_04](https://github.com/user-attachments/assets/8344bc31-c228-43b6-a50f-182f5abb1f3d)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_43_47](https://github.com/user-attachments/assets/b6a288b4-e3a8-4f14-8579-2c7e97b32316)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_43_54](https://github.com/user-attachments/assets/9567ad12-998f-4e94-a654-d202f6b36802)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_44_01](https://github.com/user-attachments/assets/088e5490-27a8-4a1e-b101-4e628d75c081)
+
 
 # İstatistik Kısımı
 Projede yapılan bilgilerin istatistiklerinin bulunduğu kısım
