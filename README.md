@@ -42,10 +42,10 @@ Proje bilgilerinin bulunduğu kısım , temel yeni Proje bilgisi ekleme ,silme v
 # Referanslarım Kısımı
 Referanslarımın bilgilerinin bulunduğu kısım , temel yeni Referansların bilgisi ekleme ,silme ve güncelleme işlemleri yapılmaktadır.
 <br><br>
-![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_30_41](https://github.com/user-attachments/assets/0ec2cec2-8a58-4dc9-b685-7330dfef581a)
-![Meyavo Portfolio Projesi ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_16_52](https://github.com/user-attachments/assets/d26aff7b-9f16-4c9c-982f-2cf186483c25)
-![Meyavo Portfolio Projesi ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_16_59](https://github.com/user-attachments/assets/0dc14856-a3ac-44a7-8965-c3e70640ab09)
-![Meyavo Portfolio Projesi ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_16_31](https://github.com/user-attachments/assets/dc261f8f-674c-48b3-a569-b6298e7866bc) 
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_38_57](https://github.com/user-attachments/assets/838ca474-dc36-4fc7-abee-9d3fc254e458)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_39_03](https://github.com/user-attachments/assets/c23d09a9-31f3-43ba-8beb-0d35d3e7b6e9)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_39_10](https://github.com/user-attachments/assets/c063dc32-85bc-4d8d-92a5-9659e269ca7b)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_39_26](https://github.com/user-attachments/assets/d08687e0-9a8b-406e-a77c-fd581eb0c98b) 
 
 # İletişim Kısımı
 İletişim bilgilerinin bulunduğu kısım , temel yeni İletişim bilgisi ekleme ve silme   işlemleri yapılmaktadır.
