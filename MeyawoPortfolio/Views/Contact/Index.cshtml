@@ -11,7 +11,6 @@
     <tr>
         <th> Mesaj Id</th>
         <th> Gönderen</th>
-        <th> Kategori</th>
         <th> Tarih</th>  
         <th> Mesajı Aç</th>
         <th> Mesajı Sil</th>
@@ -21,13 +20,34 @@
                 <tr>
                     <td>@item.ContactId</td>
                     <td>@item.NameSurname</td>
-                    <td>@item.MessageCategory</td>
                     <td>@item.SendDate</td>
-                    <td> <a href="#" class="btn btn-warning"> Mesajı'da Aç</a></td>
-                    <td> <a href="#" class="btn btn-danger"> Mesajı'da Sil</a></td>
+                    <td><a href="#" class="btn btn-info" data-toggle="modal" data-ng-message="@item.Message" data-target="#Modal1">Mesajı Ac</a></td>
+                    @*<td> <a href="#" class="btn btn-warning"> Mesajı'da Aç</a></td>*@
+                    <td> <a href="/Contact/DeleteContact/@item.ContactId" class="btn btn-secondary"> Mesajı'da Sil</a></td>
                 </tr>
             }
 
 </table>
-<td> <a href="/Contact/CreateContact/" class="btn btn-primary"> Yeni Mesaj  Girişi</a></td>
+
+
+
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">
+                    Mesajın  Detayı
+                </h2>
+            </div>
+            <form method="post" action="">
+                <div class="modal-body">
+                    @foreach (var item in Model)
+                    {
+                        <label>@item.Message</label>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 

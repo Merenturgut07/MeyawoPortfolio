@@ -1,0 +1,26 @@
+﻿@model List<MeyawoPortfolio.Models.TblMessage>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th> Ad Soyad</th>
+        <th> Mail</th>
+        <th> Açıklama</th>
+    </tr>
+    <tr>
+        @foreach(var item in Model)
+            {
+                <td> @item.Name_Surname</td>
+                <td> @item.Mail</td>
+                <td> @item.Description</td>
+                <td> <a href="#" class="btn btn-danger">Sil</a> </td>
+                <td> <a href="#" class="btn btn-success">Güncelle</a> </td>
+            }
+    </tr>
+</table>
+

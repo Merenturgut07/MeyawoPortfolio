@@ -24,6 +24,7 @@ namespace MeyawoPortfolio.Controllers
 
 
             ViewBag.testimonialCount = db.TblTestimonial.Count();
+
             return View();
         }
     }

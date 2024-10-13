@@ -16,7 +16,7 @@
                     </div>
                     <div class="testimonial-card-body">
                         <p class="testimonial-card-subtitle">
-                            @item.Description
+                            @item.Description.Substring(0,50)...
                         </p>
                         <h6 class="testimonial-card-title">@item.NameSurname</h6>
                     </div>
@@ -24,4 +24,5 @@
             </div>
         }
     </div> <!-- end of container -->
+    </div> 
 </section>

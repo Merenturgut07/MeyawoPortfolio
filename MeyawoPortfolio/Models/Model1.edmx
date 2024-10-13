@@ -58,8 +58,8 @@
             <PropertyRef Name="EducationId" />
           </Key>
           <Property Name="EducationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="OkulAdı" Type="nvarchar" MaxLength="50" />
-          <Property Name="Bölüm" Type="nvarchar" MaxLength="50" />
+          <Property Name="OkulAdı" Type="nvarchar" MaxLength="250" />
+          <Property Name="Bölüm" Type="nvarchar" MaxLength="250" />
         </EntityType>
         <EntityType Name="TblFuture">
           <Key>
@@ -69,6 +69,15 @@
           <Property Name="Header" Type="nvarchar" MaxLength="50" />
           <Property Name="NameSurname" Type="nvarchar" MaxLength="50" />
           <Property Name="Title" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TblMessage">
+          <Key>
+            <PropertyRef Name="MessageId" />
+          </Key>
+          <Property Name="MessageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name_Surname" Type="nvarchar" MaxLength="300" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="TblProject">
           <Key>
@@ -132,6 +141,7 @@ warning 6002: The table/view 'DbMyPortfolio.dbo.TblTestimonial' does not have a 
           <EntitySet Name="TblContact" EntityType="Self.TblContact" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblEducation" EntityType="Self.TblEducation" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblFuture" EntityType="Self.TblFuture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblMessage" EntityType="Self.TblMessage" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblProject" EntityType="Self.TblProject" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblService" EntityType="Self.TblService" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblSocialMedia" EntityType="Self.TblSocialMedia" Schema="dbo" store:Type="Tables" />
@@ -280,14 +290,24 @@ warning 6002: The table/view 'DbMyPortfolio.dbo.TblTestimonial' does not have a 
           </AssociationSet>
           <FunctionImport Name="lastProjectName" ReturnType="Collection(String)" />
           <EntitySet Name="TblEducation" EntityType="DbMyPortfolioModel.TblEducation" />
+          <EntitySet Name="TblMessage" EntityType="DbMyPortfolioModel.TblMessage" />
         </EntityContainer>
         <EntityType Name="TblEducation">
           <Key>
             <PropertyRef Name="EducationId" />
           </Key>
           <Property Name="EducationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="OkulAdı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Bölüm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OkulAdı" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Bölüm" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TblMessage">
+          <Key>
+            <PropertyRef Name="MessageId" />
+          </Key>
+          <Property Name="MessageId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name_Surname" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -408,6 +428,16 @@ warning 6002: The table/view 'DbMyPortfolio.dbo.TblTestimonial' does not have a 
                 <ScalarProperty Name="Bölüm" ColumnName="Bölüm" />
                 <ScalarProperty Name="OkulAdı" ColumnName="OkulAdı" />
                 <ScalarProperty Name="EducationId" ColumnName="EducationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblMessage">
+            <EntityTypeMapping TypeName="DbMyPortfolioModel.TblMessage">
+              <MappingFragment StoreEntitySet="TblMessage">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Name_Surname" ColumnName="Name_Surname" />
+                <ScalarProperty Name="MessageId" ColumnName="MessageId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
