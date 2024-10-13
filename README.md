@@ -21,7 +21,7 @@ Ana Sayfa bilgilerinin bulunduğu kısım , temel yeni Ana Sayfa bilgisi ekleme 
 # Dashboard Kısımı
 Bu kısımda kategoriler,projeler,referans sayısı,servis sayısı gibi bilgiler tabllo ve grafiklerle statik bir şekilde tutulmaktadır.
 <br><br>
-![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 21_55_35](https://github.com/user-attachments/assets/2157d822-9f40-485d-b724-65cf6a9795c2)
+![Meyavo Admin Paneli - Profil 1 - Microsoft​ Edge 13 10 2024 21_33_50](https://github.com/user-attachments/assets/1fc14254-4e64-4873-96e1-21b515e4e167)
 
 # Hakkımda Kısımı
 Hakkımda bilgilerinin bulunduğu kısım , temel yeni hakkımda bilgisi ekleme ,silme ve güncelleme işlemleri yapılmaktadır.
