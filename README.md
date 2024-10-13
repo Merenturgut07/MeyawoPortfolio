@@ -50,9 +50,10 @@ Referanslarımın bilgilerinin bulunduğu kısım , temel yeni Referansların bi
 # İletişim Kısımı
 İletişim bilgilerinin bulunduğu kısım , temel yeni İletişim bilgisi ekleme ve silme   işlemleri yapılmaktadır.
 <br><br>
-![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_35_01](https://github.com/user-attachments/assets/e8b36033-70ad-4b8e-8d0d-aca0cffa6ee6)
-![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_35_08](https://github.com/user-attachments/assets/94021bc4-c9af-4f51-befc-57d07e82b788)
-![Meyavo Portfolio Projesi ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_32_20](https://github.com/user-attachments/assets/21658d18-79b6-43e3-8d03-e3d05a3eefde)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_42_09](https://github.com/user-attachments/assets/847c7b0a-48e2-420a-be08-7f76ec9e23e5)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_42_14](https://github.com/user-attachments/assets/210835df-40cb-4875-b6d4-ef7d7f348b8d)
+![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 13 10 2024 21_42_25](https://github.com/user-attachments/assets/df6df44b-4675-4b03-b8a3-b5ec37090f0a)
+
 
 # Eğitim Hayatım Kısımı
  Eğitim Hayatım bilgilerinin bulunduğu kısım , temel yeni  Eğitim Hayatım bilgisi ekleme ve silme   işlemleri yapılmaktadır.
