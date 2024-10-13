@@ -90,6 +90,10 @@ Projede yapılan bilgilerin istatistiklerinin bulunduğu kısım
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_53_46](https://github.com/user-attachments/assets/72233724-f29d-46bf-a9c4-16fb6eaa8bbf)
 ![Meyavo Admin Paneli ve diğer 1 sayfa - Profil 1 - Microsoft​ Edge 20 08 2024 22_53_54](https://github.com/user-attachments/assets/43ead63b-1fe1-401d-b543-e25c697ca02d)
 
+# Kullanılan Tablolar
+![MeyawoPortfolio - Microsoft Visual Studio 13 10 2024 21_50_23](https://github.com/user-attachments/assets/6300e043-768d-4fc1-9764-8067fcc00e5f)
+
+
 
 
 
