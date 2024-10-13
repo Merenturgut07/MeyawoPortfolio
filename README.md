@@ -26,9 +26,9 @@ Bu kısımda kategoriler,projeler,referans sayısı,servis sayısı gibi bilgile
 # Hakkımda Kısımı
 Hakkımda bilgilerinin bulunduğu kısım , temel yeni hakkımda bilgisi ekleme ,silme ve güncelleme işlemleri yapılmaktadır.
 <br><br>
+![Meyavo Admin Paneli - Profil 1 - Microsoft​ Edge 13 10 2024 21_36_00](https://github.com/user-attachments/assets/5955df6d-a0d9-48e1-8c1b-668e7842dcd3)
 ![Meyavo Admin Paneli - Profil 1 - Microsoft​ Edge 13 10 2024 21_36_09](https://github.com/user-attachments/assets/23ae4689-bfdc-4819-b137-a1c607aff44c)
 ![Meyavo Admin Paneli - Profil 1 - Microsoft​ Edge 13 10 2024 21_36_16](https://github.com/user-attachments/assets/c8cc4b48-c6cd-47f3-bd86-0f7e4b19ff57)
-![Meyavo Admin Paneli - Profil 1 - Microsoft​ Edge 13 10 2024 21_36_00](https://github.com/user-attachments/assets/5955df6d-a0d9-48e1-8c1b-668e7842dcd3)
 ![Meyavo Admin Paneli - Profil 1 - Microsoft​ Edge 13 10 2024 21_36_25](https://github.com/user-attachments/assets/236a405b-ab89-41ab-938a-eb86cc48dad7)
 
 # Projelerim Kısımı
